@@ -1,6 +1,11 @@
-body {
-	background: #BADA55;
-	.stuff {
-		background: #ddd;
-	}
+@import "local_bootstrap";
+@import "custom_variables";
+@import "layout";
+
+
+.bg-plg-light-blue {
+  background-color: $plg_light_blue !important;
+}
+.bg-plg-dark-blue {
+  background-color: $plg_dark_blue !important;
 }

@@ -1,0 +1,53 @@
+@import "../../../_vendor/bootstrap-5.3.3/scss/mixins/banner";
+@include bsBanner("");
+
+
+// scss-docs-start import-stack
+// Configuration
+@import "../../../_vendor/bootstrap-5.3.3/scss/functions";
+//@import "../../../_vendor/bootstrap-5.3.3/scss/variables";
+@import "local_variables";
+@import "../../../_vendor/bootstrap-5.3.3/scss/variables-dark";
+@import "../../../_vendor/bootstrap-5.3.3/scss/maps";
+@import "../../../_vendor/bootstrap-5.3.3/scss/mixins";
+@import "../../../_vendor/bootstrap-5.3.3/scss/utilities";
+
+// Layout & components
+@import "../../../_vendor/bootstrap-5.3.3/scss/root";
+@import "../../../_vendor/bootstrap-5.3.3/scss/reboot";
+@import "../../../_vendor/bootstrap-5.3.3/scss/type";
+@import "../../../_vendor/bootstrap-5.3.3/scss/images";
+@import "../../../_vendor/bootstrap-5.3.3/scss/containers";
+@import "../../../_vendor/bootstrap-5.3.3/scss/grid";
+@import "../../../_vendor/bootstrap-5.3.3/scss/tables";
+@import "../../../_vendor/bootstrap-5.3.3/scss/forms";
+@import "../../../_vendor/bootstrap-5.3.3/scss/buttons";
+@import "../../../_vendor/bootstrap-5.3.3/scss/transitions";
+@import "../../../_vendor/bootstrap-5.3.3/scss/dropdown";
+@import "../../../_vendor/bootstrap-5.3.3/scss/button-group";
+@import "../../../_vendor/bootstrap-5.3.3/scss/nav";
+@import "../../../_vendor/bootstrap-5.3.3/scss/navbar";
+@import "../../../_vendor/bootstrap-5.3.3/scss/card";
+// @import "../../../_vendor/bootstrap-5.3.3/scss/accordion";
+// @import "../../../_vendor/bootstrap-5.3.3/scss/breadcrumb";
+// @import "../../../_vendor/bootstrap-5.3.3/scss/pagination";
+@import "../../../_vendor/bootstrap-5.3.3/scss/badge";
+@import "../../../_vendor/bootstrap-5.3.3/scss/alert";
+// @import "../../../_vendor/bootstrap-5.3.3/scss/progress";
+@import "../../../_vendor/bootstrap-5.3.3/scss/list-group";
+@import "../../../_vendor/bootstrap-5.3.3/scss/close";
+// @import "../../../_vendor/bootstrap-5.3.3/scss/toasts";
+@import "../../../_vendor/bootstrap-5.3.3/scss/modal";
+@import "../../../_vendor/bootstrap-5.3.3/scss/tooltip";
+@import "../../../_vendor/bootstrap-5.3.3/scss/popover";
+@import "../../../_vendor/bootstrap-5.3.3/scss/carousel";
+@import "../../../_vendor/bootstrap-5.3.3/scss/spinners";
+@import "../../../_vendor/bootstrap-5.3.3/scss/offcanvas";
+@import "../../../_vendor/bootstrap-5.3.3/scss/placeholders";
+
+// Helpers
+@import "../../../_vendor/bootstrap-5.3.3/scss/helpers";
+
+// Utilities
+@import "../../../_vendor/bootstrap-5.3.3/scss/utilities/api";
+// scss-docs-end import-stack

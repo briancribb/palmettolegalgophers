@@ -1,0 +1,166 @@
+html {
+  font-size: 14px;
+}
+body  {
+  padding-top: 3.5rem;
+}
+
+.top-nav {
+  .top-logo {
+    height: 2.75rem;
+    position: absolute;
+    top: 0.25rem;
+    left: .25rem;
+  }
+  .navbar-brand {
+    margin-left: 3rem;
+  }
+  .navbar-brand-long {
+    display: none;
+  }
+}
+.main-header {
+  position: fixed;
+  .nav-wrapper {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.top-social, .header-nav {
+  a {
+    color:#fff;
+  }
+  a:hover {
+    color: $plg_light_blue;
+  }
+}
+
+.top-social {
+  width: 100%;
+  ul:last-child {
+    display: none;
+  }
+}
+
+
+.main-wrapper {
+  padding-top: 4rem;
+}
+.main-contact {
+  position: fixed;
+  top: 3rem;
+}
+.main-nav {
+  background: #ddd;
+  position: fixed;
+  top:0;
+}
+.main-logo-wrapper {
+  top: 2rem;
+}
+.main-logo {
+  width: 80%;
+  margin-left: -1rem !important;
+}
+.sidebar-content {
+  a {
+    font-size: .8rem; 
+  }
+}
+
+.youtube-embed {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+}
+
+
+@media (min-width: 340px) {
+  .top-nav {
+    .top-name {
+      font-size: 1.2rem;
+    }
+    .navbar-brand-short {
+      display: none;
+    }
+    .navbar-brand-long {
+      display: inline;
+    }
+  }
+  .top-social {
+    .nav:first-child > li:last-child {
+      display: none;
+    }
+    ul:last-child {
+      display: inline;
+    }
+  }
+}
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.35rem;
+  }
+  body  {
+    padding-top: 0rem;
+  }
+  .main-header {
+    position:relative;
+    min-height: 200px;
+    .main-header-image {
+      position: absolute;
+      top:0;
+      right:0;
+      left:0;
+      opacity: .4;
+    }
+    .nav-wrapper {
+      position: absolute;
+      right:0;
+      left:0;
+      bottom:0;
+      padding-left: calc(var(--bs-gutter-x) * 0.5);
+      padding-right: calc(var(--bs-gutter-x) * 0.5);
+    }
+  }
+  .top-social, .header-nav {
+    width: auto;
+    .nav-link {
+      font-size: .9rem;
+    }
+  }
+  .header-nav {
+    right:0;
+  }
+}
+@include media-breakpoint-up(lg) {
+  html {
+    //font-size: 1.6rem;
+  }
+  .sidebar-content {
+    // padding-left: .75rem;
+  }
+}
+@include media-breakpoint-up(xl) {
+  .sidebar-content {
+    // padding-left: 1.2rem;
+  }
+}
+@include media-breakpoint-up(xxl) {
+  .sidebar-content {
+    // padding-left: 1.75rem;
+  }
+}
