@@ -13,7 +13,7 @@
 		<div class="collapse navbar-collapse" id="top-nav-menu">
 		<ul class="navbar-nav me-auto mt-3 mb-2 mt-md-0 mb-md-0">
 			{% for item in nav %}
-				<li class="nav-item"><a class="nav-link" href="{{ item.link }}{{ item.title }}">{{item.text}}</a></li>
+				<li class="nav-item"><a class="nav-link" href="{{ item.link }}">{{item.text}}</a></li>
 			{% endfor %}
 		</ul>
 		</div>
