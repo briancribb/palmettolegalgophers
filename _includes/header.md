@@ -1,6 +1,6 @@
-<header class="main-header bg-plg-dark-blue w-100">
-	<img class="main-header-image d-none d-md-block mx-auto pe-none" src="/img/DSC02392_Capital.png" />
-	<div class="main-header-nav container-md-fluid">
+<header class="header bg-plg-dark-blue w-100">
+	<img class="header-image d-none d-md-block mx-auto pe-none" src="/img/DSC02392_Capital.png" />
+	<div class="header-nav-wrapper container-md-fluid">
 		<div class="container-md d-flex flex-column flex-md-row">
 			<div class="col-12 col-md-4">
 				<div class="header-social d-flex justify-content-between col-md-4">
@@ -38,7 +38,7 @@
 					<ul class="nav justify-content-end">
 						{% for item in nav %}
 							<li class="nav-item">
-								<a class="header-social-link nav-link px-2 px-lg-3" href="{{ item.link }}">{{item.text}}</a>
+								<a class="header-social-link nav-link px-2 px-lg-3{% if page.url == item.url and item.text != 'Client Login' %} active{% endif %}" href="{{ item.url }}">{{item.text}}</a>
 							</li>
 						{% endfor %}
 					</ul>

@@ -1,6 +1,6 @@
 [
-	{"text":"Services","link":"/"},
-	{"text":"Pricing","link":"/"},
-	{"text":"FAQ","link":"/"},
-	{"text":"Client Login","link":"/"}
+	{"text":"Services","url":"/services/"},
+	{"text":"Pricing","url":"/pricing/"},
+	{"text":"FAQ","url":"/faq/"},
+	{"text":"Client Login","url":"/"}
 ]

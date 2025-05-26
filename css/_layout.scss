@@ -6,22 +6,26 @@ body  {
 }
 
 .top-nav {
+  .navbar-brand {
+    //margin-left: 3.5rem;
+  }
   .top-logo {
     height: 2.75rem;
-    position: absolute;
+    position: relative;
+    display: inline-block;
     top: 0.25rem;
     left: .25rem;
-  }
-  .navbar-brand {
-    margin-left: 3rem;
   }
   .navbar-brand-long {
     display: none;
   }
+  .navbar-nav .nav-item .nav-link.active {
+    background-color: #000;
+  }
 }
-.main-header {
+.header {
   position: fixed;
-  .main-header-nav {
+  .header-nav-wrapper {
     padding-left: 0;
     padding-right: 0;
     background: rgba(0,0,0,.3);
@@ -34,6 +38,9 @@ body  {
   }
   a:hover {
     color: $plg_light_blue;
+  }
+  a.active {
+    background-color: #000;
   }
 }
 
@@ -75,6 +82,14 @@ body  {
   }
 }
 
+.accordion-faq {
+  .accordion-button:focus {
+    box-shadow: none;
+  }
+  .accordion-item {
+    border-color: $plg_light_blue;
+  }
+}
 .youtube-embed {
     position: relative;
     width: 100%;
@@ -123,17 +138,17 @@ body  {
   body  {
     padding-top: 0rem;
   }
-  .main-header {
+  .header {
     position:relative;
     min-height: 200px;
-    .main-header-image {
+    .header-image {
       position: absolute;
       top:0;
       right:0;
       left:0;
       opacity: .4;
     }
-    .main-header-nav {
+    .header-nav-wrapper {
       position: absolute;
       right:0;
       left:0;

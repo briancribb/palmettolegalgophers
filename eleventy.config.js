@@ -3,7 +3,7 @@ const sass = require("sass");
 const markdownIt = require("markdown-it");
 const Image = require("@11ty/eleventy-img");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
-
+const yaml = require("js-yaml");
 
 module.exports = async function(eleventyConfig) {
 	// Configure Eleventy
@@ -12,7 +12,7 @@ module.exports = async function(eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("js");
 	eleventyConfig.addPassthroughCopy("img");
 
-	eleventyConfig.addTemplateFormats("scss")
+	eleventyConfig.addTemplateFormats("scss");
 
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
@@ -43,6 +43,10 @@ module.exports = async function(eleventyConfig) {
 				return result.css;
 			};
 		},
+	});
+
+	eleventyConfig.addDataExtension('yml, yaml', (contents) => {
+	  return yaml.load(contents);
 	});
 
 	let options = {

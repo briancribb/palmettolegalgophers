@@ -11,7 +11,7 @@
 		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/img/favicons/apple-touch-icon-72-precomposed.png">
 		<link rel="apple-touch-icon-precomposed" href="/img/favicons/apple-touch-icon-57-precomposed.png">
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-		<link rel="stylesheet" href="/css/styles.css?cb=1745959438603">
+		<link rel="stylesheet" href="/css/styles.css?cb=1745959438605">
 	</head>
 	<body class="h-100 bg-plg-light-blue">
 		{% include "nav-mobile.md" %}
@@ -19,9 +19,11 @@
 		<main class="main-wrapper container d-flex flex-column flex-md-row pt-md-3">
 			<aside class="sidebar d-none d-md-block col-md-4 position-relative">
 				<div class="main-logo-wrapper position-sticky">
-					<object class="main-logo mx-md-auto pe-none" type="image/svg+xml" data="img/logo/plg_logo_black.svg">
-						PLG Logo <!-- fallback image in CSS -->
-					</object>
+					<a class="blah" href="/">
+						<object class="main-logo mx-md-auto d-block pe-none" type="image/svg+xml" data="/img/logo/plg_logo_black.svg">
+							PLG Logo <!-- fallback image in CSS -->
+						</object>
+					</a>
 					<div class="sidebar-content nav flex-column pe-5">
 						<div class="list-group list-group-horizontal">
 							<a class="sidebar-social-link list-group-item flex-fill border-0 pe-0 py-1" href="https://www.facebook.com/PalmettoLegalGophers/" title="Facebook" target="_blank"><i class="bi bi-facebook"></i></a>
@@ -43,6 +45,6 @@
 		</main>
 		{% include "footer.md" %}
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
-		<script src="/js/index.js?cb=1745959438603"></script>
+		<script src="/js/index.js?cb=1745959438605"></script>
 	</body>
 </html>
