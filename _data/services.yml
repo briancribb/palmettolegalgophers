@@ -1,0 +1,25 @@
+data: 
+  - title: Up to Four Papers
+    img: "img/services/paper_stack.jpg"
+    alt: "Up to Four Papers to the Same Location"
+    content: <p>Oftentimes, we are asked to serve more than one entity at the same address on the same case. We think it is unfair to charge you extra for what ends up being a miniscule amount of extra paperwork.</p>
+  - title: Three Attempts
+    img: "img/services/walking_up.jpg"
+    alt: "Three attempts"
+    content: <p>Palmetto Legal Gophers will make three attempts of service on the location address provided. The attempts will be on different days and times, when we would expect the defendant to be available.</p>
+  - title: Rush Service
+    img: "img/services/watch.jpg"
+    alt: "Rush Service"
+    content: <p>Rush service is defined as any paper that has to be served within 24-48 hours. This service costs $99 in addition to standard charges. For Same Day service, we charge an additional $131.</p>
+  - title: Service Out of State
+    img: "img/services/globe.jpg"
+    alt: "Service Out of State"
+    content: <p>Email us at <a href="mailto:jobs@palmettolegalgophers.com">jobs@palmettolegalgophers.com</a> to get a quote on serving papers outside of the Carolinas. Most other states are $209 for Routine service</p>
+  - title: Service Out of the USA
+    img: "img/services/wing.jpg"
+    alt: "Service Out of the USA"
+    content: <p>We also have experience with international service and can help you serve parties all across the world. Contact us for more details.</p>
+  - title: Skip Tracing
+    img: "img/services/binoculars.jpg"
+    alt: "Skip Tracing"
+    content: <p>We offer Skip Tracing services to help locate potentially good addresses for service purposes only. $81 per name.</p>

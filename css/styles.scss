@@ -1,10 +1,15 @@
 @import "local_bootstrap";
 @import "custom_variables";
 @import "layout";
+@import "map";
+@import "services";
 
 
 .bg-plg-light-blue {
   background-color: $plg_light_blue !important;
+}
+.bg-plg-medium-blue {
+  background-color: $plg_medium_blue !important;
 }
 .bg-plg-dark-blue {
   background-color: $plg_dark_blue !important;

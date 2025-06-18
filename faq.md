@@ -2,11 +2,11 @@
 layout: _layouts/base.njk
 ---
 
-<p class="lead">FAQ</p>
+<h1 class="fs-2">Frequently Asked Questions</h1>
 
-<img class="img-fluid mb-3" src="https://placecats.com/1000/300" />
+{% image "img/gopher_look_wide.jpg", "A gopher sniffing the air.", "img-fluid mb-3" %}
 
-<div class="accordion accordion-faq accordion-flush mb-5" id="accordionExample">
+<div class="accordion accordion-faq accordion-flush mb-3" id="plg-accordion">
 	{% for item in faq.data %}
   <div class="accordion-item">
     <h2 class="accordion-header">
@@ -14,7 +14,7 @@ layout: _layouts/base.njk
         {{ item.question }}
       </button>
     </h2>
-    <div id="faq-collapse-{{forloop.index}}" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+    <div id="faq-collapse-{{forloop.index}}" class="accordion-collapse collapse" data-bs-parent="#plg-accordion">
       <div class="accordion-body">
         {{ item.answer }}
       </div>
