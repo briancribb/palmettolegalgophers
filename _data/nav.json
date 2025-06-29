@@ -1,6 +1,5 @@
 [
-	{"text":"Services","url":"/services/"},
-	{"text":"Pricing","url":"/pricing/"},
-	{"text":"FAQ","url":"/faq/"},
-	{"text":"Client Login","url":"/"}
+	{"text":"Pricing","url":"/pricing/","target":"_self"},
+	{"text":"FAQ","url":"/faq/","target":"_self"},
+	{"text":"Client Login","url":"https://lpw.sopstatus.com/login","target":"_blank"}
 ]

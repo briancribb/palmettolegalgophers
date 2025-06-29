@@ -1,0 +1,49 @@
+<form action="http://www.pstprostatus.net/asp/pstloginvalid3.aspx" method="post" name="login">
+  <!-- Pass us a valid color value here for the BACKGROUND color of the page and we'll render the results page with it -->
+  <input type="hidden" name="bgcolor" value="White" >
+  <!-- Pass us a valid URL of a background image and we'll render the results page with it -->
+  <input type="hidden" name="bgimage" value="" >
+  <!-- Pass us a valid URL of an image for your company's logo and we'll render the results page with it -->
+  <input type="hidden" name="logo" value="" >
+  <!-- Pass us a valid color value here for the LINK color of the page and we'll render the results page with it -->
+  <input type="hidden" name="linkcolor" value="" >
+  <!-- Pass us a valid color value here for the ACTIVE LINK color of the page and we'll render the results page with it -->
+  <input type="hidden" name="alinkcolor" value="" >
+  <!-- Pass us a valid color value here for the VISITED LINK color of the page and we'll render the results page with it -->
+  <input type="hidden" name="vlinkcolor" value="" >
+  <!-- Pass us a valid color value here for the TABLE BORDER color and we'll render the results page with it -->
+  <input type="hidden" name="tablebordercolor" value="" >
+  <!-- Pass us a valid color value here for each table header's background color and we'll render the results page with it -->
+  <input type="hidden" name="tableheaderbgcolor" value="" >
+  <!-- Pass us a valid font type here for each table header's font and we'll render the results page with it -->
+  <input type="hidden" name="tableheaderfonttype" value="" >
+  <!-- Pass us a valid color value here for the table header's font color and we'll render the results page with it -->
+  <input type="hidden" name="tableheaderfontcolor" value="" >
+  <!-- Pass us a valid color value here for the table's background color and we'll render the results page with it -->
+  <input type="hidden" name="tablebgcolor" value="" >
+  <!-- Pass us a valid font type here for each page's general font type and we'll render the results page with it -->
+  <input type="hidden" name="fonttype" value="" >
+  <!-- Pass us a valid color value here for each page's general font color and we'll render the results page with it -->
+  <input type="hidden" name="fontcolor" value="" >
+  <!-- Pass us a valid color value here for each page title's font color and we'll render the results page with it -->
+  <input type="hidden" name="titlenamecolor" value="" >
+  <!-- Pass us a valid font type value here for each page title's font type and we'll render the results page with it -->
+  <input type="hidden" name="titlenamefonttype" value="" >
+                
+<!-- Change the 'name' tag below to just "DBSCode" and set the value tag to your PST ID.
+This will help prevent duplicate Login Names between PST users. -->
+<input type="hidden" name="DBSCode" value="LPW">
+
+<!-- For Multiple Companies, set the value tag this way.
+Make sure you include the single quotes and commas. -->
+<input type="hidden" name="Sample2_DBSCode" value="'dba','dbb','dbc'">
+<div class="mb-3">
+  <input type="text" class="form-control" id="client-name" name="account" placeholder="Enter your user name.">
+</div>
+<div class="mb-3">
+  <input type="password" class="form-control" id="client-password" name="password" placeholder="Enter your password.">
+</div>
+<div class="mb-3">
+  <input class="btn bg-plg-dark-blue text-white" type="submit" name="submit" value="Login">
+</div>
+</form>

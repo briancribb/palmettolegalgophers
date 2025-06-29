@@ -10,11 +10,11 @@ data:
   - title: Rush Service
     img: "img/services/watch.jpg"
     alt: "Rush Service"
-    content: <p>Rush service is defined as any paper that has to be served within 24-48 hours. This service costs $99 in addition to standard charges. For Same Day service, we charge an additional $131.</p>
+    content: <p>Rush service is defined as any paper that has to be served within 24-48 hours. This service costs $70 in addition to standard charges. For Same Day service, we charge an additional $240.</p>
   - title: Service Out of State
     img: "img/services/globe.jpg"
     alt: "Service Out of State"
-    content: <p>Email us at <a href="mailto:jobs@palmettolegalgophers.com">jobs@palmettolegalgophers.com</a> to get a quote on serving papers outside of the Carolinas. Most other states are $209 for Routine service</p>
+    content: <p>Email us at <a href="mailto:jobs@palmettolegalgophers.com">jobs@palmettolegalgophers.com</a> to get a quote on serving papers outside of the Carolinas. Most other states are $240 for routine service.</p>
   - title: Service Out of the USA
     img: "img/services/wing.jpg"
     alt: "Service Out of the USA"

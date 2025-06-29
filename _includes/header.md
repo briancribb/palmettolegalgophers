@@ -11,9 +11,6 @@
 						<li class="nav-item">
 							<a class="header-social-link nav-link px-md-2 px-lg-3" href="https://www.linkedin.com/in/palmetto-legal-gophers-1abba6245" title="LinkedIn" target="_blank"><i class="bi bi-linkedin"></i></a>
 						</li>
-						<li class="nav-item">
-							<a class="header-social-link nav-link px-md-2 px-lg-3" href="https://twitter.com/GophersLegal" title="Twitter" target="_blank"><i class="bi bi-twitter-x"></i></a>
-						</li>
 						<li class="nav-item d-md-none">
 							<a class="header-social-link nav-link px-md-2 px-lg-3" href="mailto:jobs@palmettolegalgophers.com" title="Email Us" target="_blank"><i class="bi bi-envelope-fill"></i></a>
 						</li>
@@ -38,7 +35,7 @@
 					<ul class="nav justify-content-end">
 						{% for item in nav %}
 							<li class="nav-item">
-								<a class="header-social-link nav-link px-2 px-lg-3{% if page.url == item.url and item.text != 'Client Login' %} active{% endif %}" href="{{ item.url }}">{{item.text}}</a>
+								<a class="header-social-link nav-link px-2 px-lg-3{% if page.url == item.url and item.text != 'Client Login' %} active{% endif %}" href="{{ item.url }}"{% if item.target == '_blank' %} target="_blank" {% endif %}>{{item.text}}</a>
 							</li>
 						{% endfor %}
 					</ul>

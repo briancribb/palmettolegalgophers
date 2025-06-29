@@ -1,0 +1,37 @@
+Searching 3166 files for "plg_logo_og_black.png"
+
+/Volumes/External 1/Brian/Projects/github/palmettolegalgophers/_includes/seo.md:
+    7  <meta property="og:url" content="{{ page.url | escape }}" />
+    8  <meta property="og:description" content="{{ description | escape }}" />
+    9: <meta property="og:image" content="/img/logo/plg_logo_og_black.png" />
+   10  <meta property="og:type" content="website" />
+
+/Volumes/External 1/Brian/Projects/github/palmettolegalgophers/_site/index.html:
+   12  <meta property="og:url" content="/" />
+   13  <meta property="og:description" content="Uncommon Value With Uncompromising Integrity." />
+   14: <meta property="og:image" content="/img/logo/plg_logo_og_black.png" />
+   15  <meta property="og:type" content="website" />
+   16  		<!-- Fav and touch icons -->
+
+/Volumes/External 1/Brian/Projects/github/palmettolegalgophers/_site/faq/index.html:
+   12  <meta property="og:url" content="/faq/" />
+   13  <meta property="og:description" content="Frequently asked questions about process serving at Palmetto Legal Gophers." />
+   14: <meta property="og:image" content="/img/logo/plg_logo_og_black.png" />
+   15  <meta property="og:type" content="website" />
+   16  		<!-- Fav and touch icons -->
+
+/Volumes/External 1/Brian/Projects/github/palmettolegalgophers/_site/pricing/index.html:
+   12  <meta property="og:url" content="/pricing/" />
+   13  <meta property="og:description" content="Our prices for the Carolinas and everywhere else." />
+   14: <meta property="og:image" content="/img/logo/plg_logo_og_black.png" />
+   15  <meta property="og:type" content="website" />
+   16  		<!-- Fav and touch icons -->
+
+/Volumes/External 1/Brian/Projects/github/palmettolegalgophers/_site/services/index.html:
+   12  <meta property="og:url" content="/services/" />
+   13  <meta property="og:description" content="The details of our process serving services at Palmetto Legal Gophers." />
+   14: <meta property="og:image" content="/img/logo/plg_logo_og_black.png" />
+   15  <meta property="og:type" content="website" />
+   16  		<!-- Fav and touch icons -->
+
+5 matches across 5 files

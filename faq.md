@@ -1,5 +1,9 @@
 ---
 layout: _layouts/base.njk
+title: FAQ - Palmetto Legal Gophers, Your South Carolina Process Server
+permalink: /faq/
+author: Ron Grossberg
+description: Frequently asked questions about process serving at Palmetto Legal Gophers.
 ---
 
 <h1 class="fs-2">Frequently Asked Questions</h1>

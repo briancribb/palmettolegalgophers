@@ -1,5 +1,9 @@
 ---
 layout: _layouts/base.njk
+title: Pricing for Palmetto Legal Gophers, Your South Carolina Process Server
+permalink: /pricing/
+author: Ron Grossberg
+description: Our prices for the Carolinas and everywhere else.
 ---
 
 <h1 class="fs-2">Our Pricing</h1>
@@ -18,9 +22,10 @@ layout: _layouts/base.njk
 		</div>
 		<div class="col-12 col-lg-5">
 				<ul class="list-group list-group-flush">
-					<li class="list-group-item bg-plg-dark-blue text-light">Anywhere in the Carolinas – $131</li>
-					<li class="list-group-item bg-plg-dark-blue text-light">Any other US State – Most areas at $209</li>
-					<li class="list-group-item bg-plg-dark-blue text-light">International Service - Contact us for a quote</li>
+					<li class="list-group-item bg-plg-dark-blue text-light">$140 for anywhere in the Carolinas.</li>
+					<li class="list-group-item bg-plg-dark-blue text-light">$240 for most other US states.</li>
+					<li class="list-group-item bg-plg-dark-blue text-light">Rushing is an additional $70. Same day is an additional $240.</li>
+					<li class="list-group-item bg-plg-dark-blue text-light">International Service: Contact us for a quote</li>
 				</ul>
 		</div>
 	</div>

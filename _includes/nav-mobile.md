@@ -13,7 +13,7 @@
 		<div class="collapse navbar-collapse" id="top-nav-menu">
 		<ul class="navbar-nav me-auto mt-3 mb-2 mt-md-0 mb-md-0">
 			{% for item in nav %}
-				<li class="nav-item"><a class="nav-link px-3{% if page.url == item.url %} active{% endif %}" href="{{ item.url }}">{{item.text}}</a></li>
+				<li class="nav-item"><a class="nav-link px-3{% if page.url == item.url %} active{% endif %}" href="{{ item.url }}"{% if item.target == '_blank' %} target="_blank" {% endif %}>{{item.text}}</a></li>
 			{% endfor %}
 		</ul>
 		</div>
