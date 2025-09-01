@@ -10,7 +10,7 @@ data:
   - title: Rush Service
     img: "img/services/watch.jpg"
     alt: "Rush Service"
-    content: <p>Rush service is defined as any paper that has to be served within 24-48 hours. This service costs $70 in addition to standard charges. For Same Day service, we charge an additional $240.</p>
+    content: <p>Rush service is defined as any paper that has to be served within 24-48 hours. This service costs $100 in addition to standard charges. For Same Day service, we charge an additional $140.</p>
   - title: Service Out of State
     img: "img/services/globe.jpg"
     alt: "Service Out of State"
@@ -22,4 +22,4 @@ data:
   - title: Skip Tracing
     img: "img/services/binoculars.jpg"
     alt: "Skip Tracing"
-    content: <p>We offer Skip Tracing services to help locate potentially good addresses for service purposes only. $81 per name.</p>
+    content: <p>We offer Skip Tracing services to help locate potentially good addresses for service purposes only. $85 per name.</p>

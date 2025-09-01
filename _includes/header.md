@@ -9,7 +9,7 @@
 							<a class="header-social-link nav-link px-md-2 px-lg-3" href="https://www.facebook.com/PalmettoLegalGophers/" title="Facebook" target="_blank"><i class="bi bi-facebook"></i></a>
 						</li>
 						<li class="nav-item">
-							<a class="header-social-link nav-link px-md-2 px-lg-3" href="https://www.linkedin.com/in/palmetto-legal-gophers-1abba6245" title="LinkedIn" target="_blank"><i class="bi bi-linkedin"></i></a>
+							<a class="header-social-link nav-link px-md-2 px-lg-3" href="https://www.instagram.com/palmettolegalgophers/" title="Instagram" target="_blank"><i class="bi bi-instagram"></i></a>
 						</li>
 						<li class="nav-item d-md-none">
 							<a class="header-social-link nav-link px-md-2 px-lg-3" href="mailto:jobs@palmettolegalgophers.com" title="Email Us" target="_blank"><i class="bi bi-envelope-fill"></i></a>

@@ -24,9 +24,21 @@ description: Our prices for the Carolinas and everywhere else.
 				<ul class="list-group list-group-flush">
 					<li class="list-group-item bg-plg-dark-blue text-light">$140 for anywhere in the Carolinas.</li>
 					<li class="list-group-item bg-plg-dark-blue text-light">$240 for most other US states.</li>
-					<li class="list-group-item bg-plg-dark-blue text-light">Rushing is an additional $70. Same day is an additional $240.</li>
+					<li class="list-group-item bg-plg-dark-blue text-light">Rush Service is an additional $100. Same Day Service is an additional $140.</li>
 					<li class="list-group-item bg-plg-dark-blue text-light">International Service: Contact us for a quote</li>
 				</ul>
 		</div>
 	</div>
 </div>
+
+<h2 class="fs-2 mt-5">Our Services</h2>
+<p class="lead">At Palmetto Legal Gophers, we have a proven record of serving papers for our customers safely and efficiently. We want our customers to be thrilled with our work, not just satisfied.</p>
+{% image "img/gopher_perch_wide.jpg", "A gopher sniffing the air.", "img-fluid" %}
+
+{% for item in services.data %}
+<div class="service my-3 p-3">
+	<h3 class="fs-3">{{ item.title }}</h3>
+	{{ item.content }}
+	{% image item.img, item.alt, "img-fluid mb-3" %}
+</div>
+{% endfor %}
